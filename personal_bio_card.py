@@ -5,11 +5,13 @@ college = "Bangalore Institute of Technology"
 email = "vidyakt49@gmail.com"
 
 print("=============================================================")
-print("||                    STUDENT BIO CARD                     ||")
+print("||                   STUDENT BIO CARD                     ||")
 print("=============================================================")
-print("||  Name     :",name,"                                  ||")
-print("||  Age      :",age,"                                         ||")
-print("||  Course   :",course,"                              ||")
-print("||  College  :",college,"          ||")
-print("||  Email    :",email,"                        ||")
+
+print("|| Name     :", name.ljust(43), "||")
+print("|| Age      :", str(age).ljust(43), "||")
+print("|| Course   :", course.ljust(43), "||")
+print("|| College  :", college.ljust(43), "||")
+print("|| Email    :", email.ljust(43), "||")
+
 print("=============================================================")
