@@ -8,7 +8,7 @@ Enhanced ATM (Q10): Add transaction history <br>
 Advanced Calculator (Q18): Add square root, percentage functions <br>
 Statistical Analysis (Q13): Add median, mode calculations <br>
 
-#Challenges Faced
+#Challenges Faced<br>
 I had some confusion in pattern programs about loop structure and spaces.  
 In median and mode I first forgot to sort the list and also missed the case when no value repeats.  
 In ATM program the balance was getting reset because I declared it inside the loop.  
