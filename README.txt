@@ -1,5 +1,7 @@
 Name: VIDYA K T
+
 Questions Attempted: All 20 questions 
+
 Also attrmpted 3 bonous tasks included in: 
 Enhanced ATM (Q10): Add transaction history 
 Advanced Calculator (Q18): Add square root, percentage functions
