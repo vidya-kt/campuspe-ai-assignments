@@ -1,30 +1,39 @@
-from datetime import datetime
+# Input birth year
+birth_year = int(input("Enter your birth year: "))
 
-birth_year = int(input("Enter your birth year:"))
-while(birth_year<0 or birth_year>datetime.now().year):
-    birth_year = int(input("Invalid year input! Please enter again:"))
+# Input current year manually (instead of datetime)
+current_year = int(input("Enter the current year: "))
 
-#current_age = current_year - birth_year
-current_year = datetime.now().year
-current_age = current_year-birth_year
-print("Your currenr age:", current_age)
+# Validation
+while birth_year < 0 or birth_year > current_year:
+    birth_year = int(input("Invalid year input! Please enter again: "))
 
-#Age in months
-age_in_months = current_age*12
-print("Your age in months:",age_in_months)
+# Current age
+current_age = current_year - birth_year
+print("Your current age:", current_age)
 
-#Age in days
-age_in_days = current_year*365
+# Age in months
+age_in_months = current_age * 12
+print("Your age in months:", age_in_months)
+
+# Age in days (approximate)
+age_in_days = current_age * 365
 print("Your age in days:", age_in_days)
 
-#Age in hours
-age_in_hours = age_in_days*24
+# Age in hours
+age_in_hours = age_in_days * 24
 print("Your age in hours:", age_in_hours)
 
-#Age in minutes
-age_in_minutes = age_in_hours*60
+# Age in minutes
+age_in_minutes = age_in_hours * 60
 print("Your age in minutes:", age_in_minutes)
 
-#Years until age 100
-print("Years until age 100:", 100-current_age)
+# Years until age 100
+years_to_100 = 100 - current_age
 
+if years_to_100 > 0:
+    print("Years until age 100:", years_to_100)
+elif years_to_100 == 0:
+    print("You are 100 years old this year!")
+else:
+    print("You have already crossed 100 years.")
