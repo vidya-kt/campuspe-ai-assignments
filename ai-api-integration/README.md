@@ -205,13 +205,3 @@ After selecting a provider, the user enters a prompt and receives the AI respons
 ![Ollama Output](screenshots/ollama_output.png)
 
 ---
-
-# Technologies Used
-
-* Python
-* REST APIs
-* Google Gemini API
-* Groq API
-* Cohere API
-* Hugging Face Inference API
-* Ollama Local LLM
