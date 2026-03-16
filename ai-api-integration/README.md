@@ -187,19 +187,25 @@ After selecting a provider, the user enters a prompt and receives the AI respons
 
 # Screenshots of Working Programs
 
-Add screenshots showing successful outputs for each program.
+## Screenshots
 
-Example structure:
+### Gemini Program
+![Gemini Output](screenshots/gemini_output.png)
 
-```
-screenshots/
-gemini_output.png
-groq_output.png
-cohere_output.png
-huggingface_output.png
-ollama_output.png
-multi_api_output.png
-```
+### Groq Program
+![Groq Output](screenshots/groq_output.png)
+
+### Cohere Program
+![Cohere Output](screenshots/cohere_output.png)
+
+### Hugging Face Program
+![HuggingFace Output](screenshots/huggingface_output.png)
+
+### Ollama Program
+![Ollama Output](screenshots/ollama_output.png)
+
+### Multi API Program
+![Multi API Output](screenshots/multi_api_output.png)
 
 ---
 
