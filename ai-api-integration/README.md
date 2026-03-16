@@ -204,9 +204,6 @@ After selecting a provider, the user enters a prompt and receives the AI respons
 ### Ollama Program
 ![Ollama Output](screenshots/ollama_output.png)
 
-### Multi API Program
-![Multi API Output](screenshots/multi_api_output.png)
-
 ---
 
 # Technologies Used
