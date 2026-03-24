@@ -1,4 +1,4 @@
-# ollama_example.py
+#ollama_example.py
 
 # 1.API Configuration
 import requests
@@ -6,7 +6,7 @@ import requests
 url = "http://localhost:11434/api/generate"
 
 
-# 2.Query Function
+#2.Query Function
 def query_api(prompt):
     try:
         data = {
@@ -24,7 +24,7 @@ def query_api(prompt):
         return f"Error: {str(e)}"
 
 
-# 3.Main Execution
+#3.Main Execution
 if __name__ == "__main__":
 
     print("Ollama Chat App (type 'exit' to quit)\n")
